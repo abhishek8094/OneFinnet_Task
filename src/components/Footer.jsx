@@ -3,6 +3,7 @@ import navLogo from "../../public/images/navLogo.svg";
 import { FaTwitter } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import gsaStarmark from "../../public/images/gsaStarmark.png";
+import { FiExternalLink } from "react-icons/fi";
 
 const Footer = () => {
   const govDetails = [
@@ -41,8 +42,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#1b1b1b] p-20 ">
-        <div className="flex">
+      <div className="bg-[#1b1b1b] p-16 ">
+        <div className="flex cursor-pointer">
           <div>
             <img src={gsaStarmark} alt="" className="w-16" />
           </div>
@@ -52,30 +53,80 @@ const Footer = () => {
               <p className="text-[white]">An official website of the GSA's </p>
               <a
                 href="#"
-                className="text-[#a8afb0] border-b-2 border-[#a8afb0] hover:text-[white]"
+                className="text-[#a8afb0] border-b-[1.5px] border-[#a8afb0] hover:text-[white]"
               >
                 Technology Transformation Services
               </a>{" "}
+              <FiExternalLink className="text-[white] mt-1 text-xl" />
             </div>
           </div>
         </div>
-        <div>
-          <ul>
-            <li>About GSA</li>
-            <li>Accessibility statement</li>
+        <div className="grid grid-cols-4 py-6 cursor-pointer  gap-6 ">
+          <ul className="text-[#a8afb0] flex-start flex-col ">
+            <li className="flex inline-block gap-1 mb-1">
+              <span className="border-b-[1px] hover:text-white">About GSA</span>
+              <FiExternalLink className="text-[white] mt-1 text-xl" />
+            </li>
+            <li className="flex inline-block gap-1 ">
+              <span className="border-b-[1px] hover:text-white ">
+                Accessibility statement
+              </span>
+              <FiExternalLink className="text-[white] mt-1 text-xl" />
+            </li>
           </ul>
-          <ul>
-            <li>FOIA requests </li>
-            <li>No FEAR Act data </li>
+
+          <ul className="text-[#a8afb0] flex-start flex-col ">
+            <li className="flex inline-block gap-1 mb-1">
+              <span className="border-b-[1px] hover:text-white">
+                FOIA requests
+              </span>
+              <FiExternalLink className="text-[white] mt-1 text-xl" />
+            </li>
+            <li className="flex inline-block gap-1 mb-1">
+              <span className="border-b-[1px] hover:text-white ">
+                No FEAR Act data
+              </span>
+              <FiExternalLink className="text-[white] mt-1 text-xl" />
+            </li>
           </ul>
-          <ul>
-            <li> Office of the Inspector General</li>
-            <li></li>
+
+          <ul className="text-[#a8afb0] flex-start flex-col ">
+            <li className="flex inline-block gap-1 mb-1">
+              <span className="border-b-[1px] hover:text-white">
+                Office of the Inspector General
+              </span>
+              <FiExternalLink className="text-[white] mt-1 text-xl" />
+            </li>
+            <li className="flex inline-block gap-1">
+              <FiExternalLink className="text-[white] mt-1 text-xl" />
+            </li>
           </ul>
-          <ul>
-            <li> Performance reports</li>
-            <li>Privacy policy</li>
+          <ul className="text-[#a8afb0] flex-start flex-col ">
+            <li className="flex inline-block gap-1 mb-1">
+              <span className="border-b-[1px] hover:text-white">
+                Performance reports
+              </span>
+              <FiExternalLink className="text-[white] mt-1 text-xl" />
+            </li>
+            <li className="flex inline-block gap-1">
+              <span className="border-b-[1px] hover:text-white ">
+                Privacy policy
+              </span>
+              <FiExternalLink className="text-[white] mt-1 text-xl" />
+            </li>
           </ul>
+        </div>
+        <div className="flex gap-1 cursor-pointer">
+          <p className="text-[white]  ">
+            Looking for U.S. government information and services?
+          </p>
+          <a
+            href="#"
+            className="font-bold text-[white] border-b-2 border-text-[white]"
+          >
+            Visit USA.gov
+          </a>
+          <FiExternalLink className="text-[white] mt-1 text-xl" />
         </div>
       </div>
     </>
