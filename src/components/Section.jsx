@@ -47,7 +47,9 @@ const Section = () => {
               <FaDownload className="mt-[5px]" />
               Download
             </button>
-            <span className="text-[#206b82] font-semibold ">More details</span>
+            <span className="text-[#206b82] font-semibold mt-1 ">
+              More details
+            </span>
           </div>
         </div>
         <div className="py-5 mb-4">
@@ -108,35 +110,27 @@ const Section = () => {
           <h3 className="font-bold text-[25px] leading-6 mb-4">
             About this Resource
           </h3>
-          <div className=" shadow-lg rounded-lg">
-            <table className="min-w-full bg-white border">
-              <tbody>
-                <tr className="border-b">
-                  <th className="text-left px-6 py-4 font-bold bg-gray-100">
-                    Last updated
-                  </th>
-                  <td className="px-6 py-4">unknown</td>
-                </tr>
-                <tr className="border-b">
-                  <th className="text-left px-6 py-4 font-bold bg-gray-100">
-                    Created
-                  </th>
-                  <td className="px-6 py-4">unknown</td>
-                </tr>
-                <tr className="border-b">
-                  <th className="text-left px-6 py-4 font-bold bg-gray-100">
-                    Format
-                  </th>
-                  <td className="px-6 py-4">JSON File</td>
-                </tr>
-                <tr className="border-b">
-                  <th className="text-left px-6 py-4 font-bold bg-gray-100">
-                    License
-                  </th>
-                  <td className="px-6 py-4">License not specified</td>
-                </tr>
-              </tbody>
-            </table>
+          <div className="border-2 w-[600px]">
+            <div className="bg-[#e9e9e9] p-1.5 border-[1.5px]">
+              <span className="font-semibold p-1"> Last Updated</span>
+              <span className="border-2 relative left-[115px]">unknown</span>
+            </div>
+            <div className="p-1.5">
+              <span className="font-semibold p-1">Created</span>
+              <span className=" relative left-40">unknown</span>
+            </div>
+            <div className="bg-[#e9e9e9] border-[1.5px] p-2">
+              <span className="font-semibold p-1">Format </span>
+              <span className="relative left-40">JSON file</span>
+            </div>
+            <div className="p-1.5">
+              <span className="font-semibold p-1">License </span>
+              <span className="relative left-40">License not specified</span>
+            </div>
+          </div>
+          <div className="border-l border-b p-1"><hr className="w-48 m-0"/></div>
+          <div className="border-l border-b p-2">
+            <span className="font-semibold text-sm p-1 text-[#3e536e]">Show more </span>
           </div>
         </div>
       </div>
