@@ -122,7 +122,7 @@ const Section = () => {
             <hr className="w-48" />
           </div>
           <div className="border-l border-b p-2">
-            <span className="font-semibold text-sm p-1 text-[#3e536e] hover:border-b-[1px] border-[#3e536e]">
+            <span className="font-semibold text-sm p-1 text-[#3e536e] hover:border-b-[1px] border-[#3e536e] cursor-pointer">
               Show more
             </span>
           </div>
