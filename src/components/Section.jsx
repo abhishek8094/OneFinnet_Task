@@ -63,7 +63,7 @@ const Section = () => {
           </span>
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row">
+      <div className="flex flex-col border-r-[1.5px] lg:flex-row">
         <div className="w-full lg:w-64 border-l-[1.5px] border-r-[1.5px] bg-[white] mb-4 lg:mb-0">
           <h4 className="font-semibold text-[18px] flex items-center gap-1 border-b-[1.5px] px-4 py-1 bg-[#f6f6f6]">
             <FiCopy />
@@ -100,29 +100,29 @@ const Section = () => {
           <h3 className="font-bold text-[25px] leading-6 mb-4">
             About this Resource
           </h3>
-          <div className="border-2">
-            <div className="bg-[#e9e9e9] p-1.5 border-b-[1.5px] flex justify-between">
+          <div className="border-[1.5px] border-gray-300">
+            <div className="bg-[#e9e9e9] p-1.5 border-b-[1.5px] flex ">
               <span className="font-semibold">Last updated</span>
-              <span>unknown</span>
+              <span className="ml-40">unknown</span>
             </div>
-            <div className="p-1.5 border-b-[1.5px] flex justify-between">
+            <div className="p-1.5 border-b-[1.5px] flex ">
               <span className="font-semibold">Created</span>
-              <span>unknown</span>
+              <span className="ml-[197px]">unknown</span>
             </div>
-            <div className="bg-[#e9e9e9] p-1.5 border-b-[1.5px] flex justify-between">
+            <div className="bg-[#e9e9e9] p-1.5 border-b-[1.5px] flex ">
               <span className="font-semibold">Format</span>
-              <span>JSON file</span>
+              <span className="ml-[197px]">JSON file</span>
             </div>
-            <div className="p-1.5 flex justify-between">
+            <div className="p-1.5 flex ">
               <span className="font-semibold">License</span>
-              <span>License not specified</span>
+              <span className="ml-[197px]">License not specified</span>
             </div>
           </div>
           <div className="border-l border-b p-1">
             <hr className="w-48" />
           </div>
           <div className="border-l border-b p-2">
-            <span className="font-semibold text-sm p-1 text-[#3e536e]">
+            <span className="font-semibold text-sm p-1 text-[#3e536e] hover:border-b-[1px] border-[#3e536e]">
               Show more
             </span>
           </div>
