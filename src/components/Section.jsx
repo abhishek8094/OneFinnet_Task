@@ -41,7 +41,7 @@ const Section = () => {
             </a>
           </div>
           <div className="flex flex-col mt-4 md:mt-0">
-            <button className="bg-[#206b82] flex items-center gap-1 rounded p-2 px-4 text-[white] font-semibold mb-2">
+            <button className="bg-[#206b82] flex items-center gap-1 rounded p-2 px-4 text-[white] font-semibold mb-2 hover:bg-[#284a7a]">
               <FaDownload className="mt-[5px]" />
               Download
             </button>

@@ -9,7 +9,7 @@ const Header = () => {
     <>
       <UsaLink />
       <div className="flex justify-between items-center px-4 sm:px-6 md:px-10 lg:px-20">
-        <div className="flex justify-around items-center">
+        <div className="flex justify-around items-center cursor-pointer">
           <div>
             <img
               src={navLogo}
@@ -34,13 +34,13 @@ const Header = () => {
             </ul>
           </div>
         </div>
-        <div className="relative right-0 sm:left:10 md:left-12 lg:left-12 border-l border-gray-300 p-2">
+        <div className="relative right-0 sm:left:10 md:left-12 lg:left-12 border-l border-gray-300 p-2 cursor-pointer">
           <img
             src={userGuide}
             alt=""
-            className="w-12 sm:w-14 md:w-16 ml-2 sm:ml-4"
+            className="w-12 sm:w-14 md:w-16 ml-3 sm:ml-5"
           />
-          <span className="ml-2 leading-6 tracking-wider text-sm sm:text-base md:text-lg">
+          <span className="ml-2 leading-6 tracking-wider text-sm sm:text-base md:text-lg hover:border-b-[1.5px] border-[gray] cursor-pointer">
             User Guide
           </span>
         </div>

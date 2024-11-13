@@ -4,7 +4,7 @@ import usaFlag from "../../public/images/usaFlag.png";
 
 const UsaLink = () => {
   return (
-    <div className="bg-[#d8d8de] cursor-pointer">
+    <div className="bg-[#d8d8de]">
       <div className="flex flex-col md:flex-row items-center p-2 md:relative md:left-20 text-center md:text-left">
         <img src={usaFlag} alt="" className="w-5" />
         <p className="mr-2 ml-2 text-sm md:text-base mt-2 md:mt-0">
@@ -12,7 +12,7 @@ const UsaLink = () => {
         </p>
         <a
           href="#"
-          className="text-[#457ca4] border-b-[1.5px] border-[#457ca4] mt-2 md:mt-0"
+          className="text-[#457ca4] border-b-[1.5px] border-[#457ca4] mt-2 md:mt-0 cursor-pointer"
         >
           Here’s how you know{" "}
         </a>
